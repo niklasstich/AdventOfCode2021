@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AdventOfCode;
 using AoCHelper;
@@ -18,6 +19,7 @@ public class TestDays
             yield return new TestCaseData(new Day04(), "63424", "23541");
             yield return new TestCaseData(new Day05(), "6564", "19172");
             yield return new TestCaseData(new Day06(), "350605", "1592778185024");
+            yield return new TestCaseData(new Day07(), "353800", "98119739");
         }
     }
     [TestCaseSource(nameof(AdventOfCodeDays))]
