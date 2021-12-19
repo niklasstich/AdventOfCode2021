@@ -21,3 +21,6 @@ jobs:
     - name: Solve all
       run: dotnet run -c Release --no-build -- all
       working-directory: ./AdventOfCode
+      
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
