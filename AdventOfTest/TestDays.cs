@@ -17,6 +17,7 @@ public class TestDays
             yield return new TestCaseData(new Day03(), "3277364", "5736383");
             yield return new TestCaseData(new Day04(), "63424", "23541");
             yield return new TestCaseData(new Day05(), "6564", "19172");
+            yield return new TestCaseData(new Day06(), "350605", "1592778185024");
         }
     }
     [TestCaseSource(nameof(AdventOfCodeDays))]
