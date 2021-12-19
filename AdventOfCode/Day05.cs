@@ -1,11 +1,11 @@
 namespace AdventOfCode;
 
-public class Day_05 : BaseDay
+public class Day05 : BaseDay
 {
     private readonly string _input;
     private readonly string[] _lines;
 
-    public Day_05()
+    public Day05()
     {
         _input = File.ReadAllText(InputFilePath);
         _lines = _input.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);

@@ -1,12 +1,12 @@
 namespace AdventOfCode;
 
-public class Day_03 : BaseDay
+public class Day03 : BaseDay
 {
     private readonly string _input;
     private readonly string[] _lines;
     private readonly int _bitwidth = 12;
 
-    public Day_03()
+    public Day03()
     {
         _input = File.ReadAllText(InputFilePath);
         _lines = _input.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
